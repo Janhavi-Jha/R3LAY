@@ -1,0 +1,28 @@
+# Frontend
+node_modules/
+.next/
+out/
+
+# Python
+backend/.venv/
+__pycache__/
+*.py[cod]
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+!.env.local.example
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
